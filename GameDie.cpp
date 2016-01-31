@@ -9,11 +9,10 @@ GameDie::GameDie()
 }
 
 //generate a random number between 1-6 (inclusive) and display it
-void GameDie::roll()
+int GameDie::roll()
 {
   srand(time(NULL)); 
   
-  cout << "Game Throws number : "
-    << rand() % 6 + 1<<endl;  //rand() helps you generate random number
+    return rand() % 6 + 1;  //rand() helps you generate random number
 }
 
