@@ -8,11 +8,11 @@ GameDie::GameDie()
 {
 }
 
-//generate a random number between 1-6 (inclusive) and display it
+//generate a random number between 1-16 (inclusive) and display it
 int GameDie::roll()
 {
   srand(time(NULL)); 
   
-    return rand() % 16 + 4;  //rand() helps you generate random number
+    return rand() % 16 + 1;  //rand() helps you generate random number
 }
 
