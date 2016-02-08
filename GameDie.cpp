@@ -13,6 +13,6 @@ int GameDie::roll()
 {
   srand(time(NULL)); 
   
-    return rand() % 6 + 1;  //rand() helps you generate random number
+    return rand() % 16 + 4;  //rand() helps you generate random number
 }
 
